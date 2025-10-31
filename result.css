@@ -1,0 +1,142 @@
+body{
+    background-color: hsl(221, 100%, 96%);
+    font-size: 18px;
+    font-family: "hanken-grotesk", sans-serif;
+}
+main{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: 100vh;
+    max-width: 600px;
+    border-radius: 12px;
+    padding: 50px;
+
+}
+.front{
+    background:linear-gradient( to top, hsl(234, 85%, 45%), hsl(242, 100%, 50%));
+    color: white;
+    border-radius: 24px;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 15px;
+    width: 100%;
+    
+}
+ 
+h1{
+    font-weight: 500;
+    font-size: 24px;
+    color: hsl(241, 100%, 89%);
+}
+h2 {
+    text-align: center;
+    color: white;
+    padding:20px ;
+    border-radius: 50%;
+    width: 100px;
+    height: 40px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto;
+    background: linear-gradient( to top, hsl(241, 72%, 46%), darkblue);
+}
+.pop{
+    font-size: 14px;
+    color: hsl(241, 100%, 89%);
+}
+#root{
+    color: hsl(224, 23%, 60%);
+    font-size: 16px;
+    margin-top: -10px;
+}
+#reco{
+    color: rgb(231, 24, 24);
+    background-color: hsl(0, 77%, 95%);
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.icon {
+    padding: 10px 30px;
+    margin: 5px;
+}
+#number{
+    margin-right: 20px;
+    font-weight: 400px;
+    color: black;
+}
+#memo {
+     color: hsl(39, 100%, 56%);
+    background-color: hsl(39, 81%, 90%);
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.record {
+    padding: 10px 30px;
+    margin: 5px;
+}
+
+ #ver {
+     color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 90%);
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.Verbal{
+    padding: 10px 30px;
+    margin: 5px;
+    
+}
+#vis {
+     color: hsl(252, 100%, 67%);
+    background-color: hsl(252, 100%, 90%);
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.visual {
+    padding: 10px 30px;
+    margin: 5px;
+   
+}
+h6 {
+    text-align: center;
+    background-color: hsl(224, 87%, 9%);
+    cursor: pointer;
+    color: white;
+    border-radius: 12px;
+    border-width: 100px;
+    padding: 25px;
+    width: 20%;
+}
+#colors {
+    color: hsl(224, 23%, 60%);
+}
+.attribution {
+    border-radius: 16px;
+    border: 1px solid hsl(223, 19%, 93%);
+    padding: 10px;
+    margin-top: 10px;
+    background-color: hsl(157, 100%, 80%);
+
+}
+h6:hover {
+    background-color: hsl(263, 37%, 24%);
+    cursor: pointer;
+}
