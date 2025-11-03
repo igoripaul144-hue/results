@@ -6,13 +6,20 @@ body{
 main{
     background-color: white;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: 100vh;
     max-width: 600px;
     border-radius: 12px;
     padding: 50px;
+    margin:0 auto; ;
 
+}
+@media (max-width: 768px){
+    main{
+        flex-direction: column;
+        padding: 20px;
+    }
 }
 .front{
     background:linear-gradient( to top, hsl(234, 85%, 45%), hsl(242, 100%, 50%));
@@ -21,7 +28,7 @@ main{
     text-align: center;
     padding: 30px;
     margin-bottom: 15px;
-    width: 100%;
+border-width: 0 auto;
     
 }
  
@@ -33,15 +40,16 @@ h1{
 h2 {
     text-align: center;
     color: white;
-    padding:20px ;
+    padding:20px;
     border-radius: 50%;
-    width: 100px;
-    height: 40px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     display: flex;
-    flex-direction: column;
+   flex-direction: row;
+    grid-template-areas: 20px;
+    align-items: stretch;
     justify-content: center;
-    margin: 20px auto;
+    margin: 10px auto;
     background: linear-gradient( to top, hsl(241, 72%, 46%), darkblue);
 }
 .pop{
@@ -61,6 +69,7 @@ h2 {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+     margin-left: 15px;
 
 }
 .icon {
@@ -80,6 +89,7 @@ h2 {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+  margin-left: 15px;
 
 }
 .record {
@@ -95,6 +105,7 @@ h2 {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+     margin-left: 15px;
 }
 .Verbal{
     padding: 10px 30px;
@@ -109,6 +120,7 @@ h2 {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+     margin-left: 15px;
 }
 .visual {
     padding: 10px 30px;
@@ -124,19 +136,29 @@ h6 {
     border-width: 100px;
     padding: 25px;
     width: 20%;
+    margin: 0 auto;
+    border-width: 40px;
 }
+     
 #colors {
     color: hsl(224, 23%, 60%);
 }
 .attribution {
     border-radius: 16px;
-    border: 1px solid hsl(223, 19%, 93%);
+   margin-right: 16px;
     padding: 10px;
     margin-top: 10px;
     background-color: hsl(157, 100%, 80%);
 
 }
 h6:hover {
-    background-color: hsl(263, 37%, 24%);
+    background-color: hsl(263, 13%, 47%);
     cursor: pointer;
+}
+.alinement{
+  padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
